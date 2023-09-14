@@ -1,0 +1,15 @@
+{
+   "manifest_version": 3,
+   "name": "ToDo List Keeper",
+  "version": "1.0",
+  "description": "Access your daily todo task just in one click",
+  "action":{
+    "default_popup":"ToDo.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "notifications"
+  ]
+}
